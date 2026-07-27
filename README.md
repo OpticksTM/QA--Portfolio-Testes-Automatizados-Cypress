@@ -4,7 +4,7 @@ Este repositório faz parte do meu portfólio profissional de Quality Assurance 
 
 ---
 
-# Tecnologias Utilizadas
+## Tecnologias Utilizadas
 - JavaScript (Linguagem de programação)
 - Cypress (Framework de automação E2E)
 - Node.js (Ambiente de execução)
@@ -13,18 +13,19 @@ Este repositório faz parte do meu portfólio profissional de Quality Assurance 
 ---
 
 ## Escopo Atual da Automação
-Nesta primeira etapa, o projeto cobre o fluxo fundamental de autenticação na aplicação de testes SauceDemo. Conforme o desenvolvimento avançar, novos módulos serão integrados.
+O projeto cobre fluxos fundamentais de autenticação e compra na aplicação de testes SauceDemo. 
 
-Cenário implementado:
-- Autenticação com Credenciais Válidas: Validação do preenchimento dos campos de usuário e senha, acionamento do botão de acesso, verificação do redirecionamento para a página de inventário e checagem do elemento visual correspondente ao título da página (Products).
+Cenários implementados:
+1. **Autenticação com Credenciais Válidas (`login.cy.js`):** Validação do preenchimento dos campos de usuário e senha, acionamento do botão de acesso, verificação do redirecionamento para a página de inventário e checagem do título visual da página (*Products*).
+2. **Fluxo Completo de Compra / Checkout (`checkout.cy.js`):** Validação da adição de produto ao carrinho, checagem dos itens, preenchimento automatizado das informações do comprador (Nome, Sobrenome e CEP), finalização do pedido e validação da mensagem de sucesso (*"Thank you for your order!"*).
 
 ---
 
-# Como Executar o Projeto
+## Como Executar o Projeto
 
 Siga os passos abaixo para baixar e rodar os testes automatizados no seu ambiente local:
 
-1. Pré-requisitos: Certifique-se de ter o Node.js instalado na máquina.
-2. Clone o repositório:
+1. **Pré-requisitos:** Certifique-se de ter o Node.js instalado na máquina.
+2. **Clone o repositório:**
    ```bash
    git clone [https://github.com/OpticksTM/QA--Portfolio-Testes-Automatizados-Cypress.git](https://github.com/OpticksTM/QA--Portfolio-Testes-Automatizados-Cypress.git)
